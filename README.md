@@ -38,7 +38,7 @@ yarn android
 Run the tests for all test files by running:
 
 ```
-yarn test
+ yarn test
 ```
 
 Or in jest watch mode
