@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 This is the demo app that is being used for interviewing at Nordnet for the mobile app team. The app is made in a way so that it reflects how the code is written and structured in the real Nordnet app. This is done because we want the interview to resemble a normal working day in the Nordnet app team, where we discuss code, we stay transparent, we ask each other questions and more.
 
