@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct stack 1`] = `
+<Stack.Navigator>
+  <Stack.Screen
+    component="WelcomeScreen"
+    name="Welcome"
+    options={
+      Object {
+        "headerShown": false,
+      }
+    }
+  />
+  <Stack.Screen
+    component="InstrumentListScreen"
+    name="InstrumentList"
+  />
+</Stack.Navigator>
+`;
