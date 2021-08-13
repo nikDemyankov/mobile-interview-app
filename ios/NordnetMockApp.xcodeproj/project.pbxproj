@@ -16,10 +16,8 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* NordnetMockAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NordnetMockAppTests.m */; };
-		3A04D5A445E56A49407E8DEB /* libPods-NordnetMockApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74886E4009A90198AD8E6696 /* libPods-NordnetMockApp-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		85A8EB419C87031FBA379051 /* libPods-NordnetMockApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5747C5F1AE19BC804792EF9B /* libPods-NordnetMockApp.a */; };
-		971C37EF28A6BB9062D87EA8 /* libPods-NordnetMockApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA56C811A9BC45A9C31E1042 /* libPods-NordnetMockApp-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,17 +52,11 @@
 		2D02E47B1E0B4A5D006451C7 /* NordnetMockApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NordnetMockApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* NordnetMockApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NordnetMockApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5747C5F1AE19BC804792EF9B /* libPods-NordnetMockApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NordnetMockApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7107F4E0E774B153A1DBCDF2 /* Pods-NordnetMockApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NordnetMockApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-NordnetMockApp-tvOS/Pods-NordnetMockApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		71DBDA1719F2148E756ADD1B /* Pods-NordnetMockApp-NordnetMockAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NordnetMockApp-NordnetMockAppTests.release.xcconfig"; path = "Target Support Files/Pods-NordnetMockApp-NordnetMockAppTests/Pods-NordnetMockApp-NordnetMockAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		74886E4009A90198AD8E6696 /* libPods-NordnetMockApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NordnetMockApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = NordnetMockApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BAB5B382FAC33E46B4969AB /* Pods-NordnetMockApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NordnetMockApp.release.xcconfig"; path = "Target Support Files/Pods-NordnetMockApp/Pods-NordnetMockApp.release.xcconfig"; sourceTree = "<group>"; };
 		A907C0EE0CD9B384B51627EC /* Pods-NordnetMockApp-NordnetMockAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NordnetMockApp-NordnetMockAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NordnetMockApp-NordnetMockAppTests/Pods-NordnetMockApp-NordnetMockAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC01465F254954C6D04215F3 /* Pods-NordnetMockApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NordnetMockApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-NordnetMockApp-tvOSTests/Pods-NordnetMockApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C1BB18D0CEE551B76F915818 /* Pods-NordnetMockApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NordnetMockApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-NordnetMockApp-tvOS/Pods-NordnetMockApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C9F280F6E33F115ABB8B3349 /* Pods-NordnetMockApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NordnetMockApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-NordnetMockApp-tvOSTests/Pods-NordnetMockApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		E5058930DCC8947357CFD45B /* libPods-NordnetMockApp-NordnetMockAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NordnetMockApp-NordnetMockAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA56C811A9BC45A9C31E1042 /* libPods-NordnetMockApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NordnetMockApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -90,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				971C37EF28A6BB9062D87EA8 /* libPods-NordnetMockApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +89,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A04D5A445E56A49407E8DEB /* libPods-NordnetMockApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,10 +119,6 @@
 				8BAB5B382FAC33E46B4969AB /* Pods-NordnetMockApp.release.xcconfig */,
 				A907C0EE0CD9B384B51627EC /* Pods-NordnetMockApp-NordnetMockAppTests.debug.xcconfig */,
 				71DBDA1719F2148E756ADD1B /* Pods-NordnetMockApp-NordnetMockAppTests.release.xcconfig */,
-				7107F4E0E774B153A1DBCDF2 /* Pods-NordnetMockApp-tvOS.debug.xcconfig */,
-				C1BB18D0CEE551B76F915818 /* Pods-NordnetMockApp-tvOS.release.xcconfig */,
-				BC01465F254954C6D04215F3 /* Pods-NordnetMockApp-tvOSTests.debug.xcconfig */,
-				C9F280F6E33F115ABB8B3349 /* Pods-NordnetMockApp-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -159,8 +145,6 @@
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				5747C5F1AE19BC804792EF9B /* libPods-NordnetMockApp.a */,
 				E5058930DCC8947357CFD45B /* libPods-NordnetMockApp-NordnetMockAppTests.a */,
-				EA56C811A9BC45A9C31E1042 /* libPods-NordnetMockApp-tvOS.a */,
-				74886E4009A90198AD8E6696 /* libPods-NordnetMockApp-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -246,7 +230,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "NordnetMockApp-tvOS" */;
 			buildPhases = (
-				EC66808B2865F39E8B33AB4A /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +249,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "NordnetMockApp-tvOSTests" */;
 			buildPhases = (
-				5E1007517E5F7CD733ECBD3C /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -449,28 +431,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5E1007517E5F7CD733ECBD3C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NordnetMockApp-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BD026C039ECB83BE2DDAD21E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -487,28 +447,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-NordnetMockApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC66808B2865F39E8B33AB4A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NordnetMockApp-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -695,7 +633,6 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7107F4E0E774B153A1DBCDF2 /* Pods-NordnetMockApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -723,7 +660,6 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1BB18D0CEE551B76F915818 /* Pods-NordnetMockApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -751,7 +687,6 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC01465F254954C6D04215F3 /* Pods-NordnetMockApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -778,7 +713,6 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9F280F6E33F115ABB8B3349 /* Pods-NordnetMockApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
