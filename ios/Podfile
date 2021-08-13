@@ -19,5 +19,8 @@ target 'NordnetMockApp' do
 
   post_install do |installer|
     react_native_post_install(installer)
+        # M1 fix?: https://github.com/facebook/react-native/issues/29605#issuecomment-861783673
+        installer.pods_project.build_configurations.each do |config| config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] =  "arm64"
+    end
   end
 end
