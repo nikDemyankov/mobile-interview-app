@@ -2,7 +2,7 @@ import React from 'react';
 import { TouchableOpacity } from 'react-native';
 import { act, create } from 'react-test-renderer';
 
-import Button, { Props } from '../Button.ios';
+import Button, { Props } from '../Button';
 
 let props: Props;
 

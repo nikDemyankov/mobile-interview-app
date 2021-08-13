@@ -8,8 +8,6 @@ import Navigation from './navigation';
 import { color } from './ui/theme';
 import store from './store';
 
-declare const global: { HermesInternal: null | {} };
-
 // Silence require cycle for fetch.
 if (__DEV__) {
   LogBox.ignoreLogs(['Require cycle: node_modules/react-native/Libraries/Network/fetch.js']);

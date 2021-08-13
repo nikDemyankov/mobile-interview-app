@@ -8,6 +8,9 @@ jest.mock('@react-navigation/native', () => ({
 jest.mock('react-native-gesture-handler', () => '');
 jest.mock('react-native', () => ({
   StatusBar: 'StatusBar',
+  LogBox: {
+    ignoreLogs: jest.fn(),
+  },
 }));
 jest.mock('react-redux', () => ({
   Provider: 'Provider',
