@@ -8,7 +8,7 @@ import { winnersLosers } from '../../ducks';
 const InstrumentListScreen: React.FC = () => {
   const dispatch = useDispatch();
   const winners = useSelector(winnersLosers.selector.getWinners);
-
+  // push
   useEffect(() => {
     dispatch(winnersLosers.action.getWinners());
   }, [dispatch]);
