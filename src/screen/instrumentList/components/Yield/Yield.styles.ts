@@ -1,14 +1,15 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  header: {
-    fontSize: 20,
+  title: {
+    color: 'grey',
+    marginBottom: 2,
     fontWeight: 'bold',
-    marginBottom: 8,
   },
-  yieldColumn: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+  value: {
+    fontSize: 18,
+    marginBottom: 2,
+    fontWeight: 'bold',
   },
 });
 
