@@ -59,7 +59,7 @@ Our task is to load the best/worse performing stocks from todays market and disp
 
 ![list of winners](./readme_resources/list_view.png)
 
-We will not focus on getting the design 100% correct, 75% will be good enough.
+We will not focus on getting the design 100% correct 75% will be good enough.
 
 User should be able to switch between them by tapping on the link above the list.
 
