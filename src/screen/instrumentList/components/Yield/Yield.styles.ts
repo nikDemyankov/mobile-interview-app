@@ -6,10 +6,19 @@ const styles = StyleSheet.create({
     marginBottom: 2,
     fontWeight: 'bold',
   },
+
   value: {
-    fontSize: 18,
+    fontSize: 16,
     marginBottom: 2,
     fontWeight: 'bold',
+  },
+
+  valuePositive: {
+    color: 'green',
+  },
+
+  valueNegative: {
+    color: 'red',
   },
 });
 
