@@ -1,1 +1,1 @@
-export { default as ComponentTemplate } from './ComponentTemplate';
+export { default as InstrumentRow } from './InstrumentRow';
