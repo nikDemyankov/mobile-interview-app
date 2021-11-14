@@ -10,7 +10,8 @@ We will work on the task together as a team where there will be no pressure in f
 2. Setup the react-native development environment. You can find instructions below.
 3. Make it run on Android or iOS.
 4. Install mob tool: https://github.com/remotemobprogramming/mob
-5. Look through the source code a bit.
+5. Make sure that your GitHub account has **two-factor authentication** enabled. Otherwise you would not be able to push code.
+6. Look through the source code a bit.
 
 ### Setting up the environment
 
