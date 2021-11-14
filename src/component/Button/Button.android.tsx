@@ -1,7 +1,7 @@
-import React, { memo, useMemo } from 'react';
-import { Text, ViewStyle, TouchableNativeFeedback, View } from 'react-native';
+import React, { memo } from 'react';
+import { ViewStyle, TouchableNativeFeedback } from 'react-native';
 
-import styles from './Button.styles';
+import { ButtonContainer, Label } from './Button.styledComponents';
 
 export interface Props {
   onPress: () => void;
@@ -10,13 +10,11 @@ export interface Props {
 }
 
 const Button: React.FC<Props> = ({ onPress, label, style }) => {
-  const buttonStyles = useMemo(() => [styles.button, style], [style]);
-
   return (
     <TouchableNativeFeedback onPress={onPress}>
-      <View style={buttonStyles}>
-        <Text style={styles.label}>{label}</Text>
-      </View>
+      <ButtonContainer style={style}>
+        <Label>{label}</Label>
+      </ButtonContainer>
     </TouchableNativeFeedback>
   );
 };

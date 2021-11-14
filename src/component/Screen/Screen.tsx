@@ -1,7 +1,16 @@
 import React from 'react';
-import { SafeAreaView, View } from 'react-native';
+import styled from 'styled-components/native';
+import { color } from '../../ui/theme';
 
-import styles from './Screen.styles';
+const Container = styled.SafeAreaView({
+  flex: 1,
+  backgroundColor: color.background,
+});
+
+const ChildrenContainer = styled.View({
+  paddingHorizontal: 10,
+  paddingVertical: 10,
+});
 
 interface Props {
   children: React.ReactNode | React.ReactNode[];
@@ -9,9 +18,9 @@ interface Props {
 
 const Screen: React.FC<Props> = ({ children }) => {
   return (
-    <SafeAreaView style={styles.screen}>
-      <View style={styles.children}>{children}</View>
-    </SafeAreaView>
+    <Container>
+      <ChildrenContainer>{children}</ChildrenContainer>
+    </Container>
   );
 };
 

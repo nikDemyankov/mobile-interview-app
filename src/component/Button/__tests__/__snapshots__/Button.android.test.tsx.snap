@@ -17,20 +17,21 @@ exports[`should render properly 1`] = `
         "backgroundColor": "#7173ce",
         "borderRadius": 6,
       },
-      undefined,
     ]
   }
 >
   <Text
     style={
-      Object {
-        "color": "#FFF",
-        "fontSize": 16,
-        "fontWeight": "bold",
-        "paddingHorizontal": 14,
-        "paddingVertical": 10,
-        "textAlign": "center",
-      }
+      Array [
+        Object {
+          "color": "#FFF",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "paddingHorizontal": 14,
+          "paddingVertical": 10,
+          "textAlign": "center",
+        },
+      ]
     }
   >
     Hello
@@ -63,14 +64,16 @@ exports[`should render properly with style 1`] = `
 >
   <Text
     style={
-      Object {
-        "color": "#FFF",
-        "fontSize": 16,
-        "fontWeight": "bold",
-        "paddingHorizontal": 14,
-        "paddingVertical": 10,
-        "textAlign": "center",
-      }
+      Array [
+        Object {
+          "color": "#FFF",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "paddingHorizontal": 14,
+          "paddingVertical": 10,
+          "textAlign": "center",
+        },
+      ]
     }
   >
     Hello

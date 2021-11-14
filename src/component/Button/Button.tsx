@@ -1,21 +1,18 @@
-import React, { memo, useMemo } from 'react';
-import { Text, ViewStyle, TouchableOpacity } from 'react-native';
-
-import styles from './Button.styles';
+import React, { memo } from 'react';
+import { StyleProp, ViewStyle } from 'react-native';
+import { TouchableButton, Label } from './Button.styledComponents';
 
 export interface Props {
   onPress: () => void;
   label: string;
-  style?: ViewStyle;
+  style?: StyleProp<ViewStyle>;
 }
 
 const Button: React.FC<Props> = ({ onPress, label, style }) => {
-  const buttonStyles = useMemo(() => [styles.button, style], [style]);
-
   return (
-    <TouchableOpacity onPress={onPress} style={buttonStyles}>
-      <Text style={styles.label}>{label}</Text>
-    </TouchableOpacity>
+    <TouchableButton onPress={onPress} style={style}>
+      <Label>{label}</Label>
+    </TouchableButton>
   );
 };
 

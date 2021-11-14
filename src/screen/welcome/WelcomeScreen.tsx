@@ -1,10 +1,16 @@
 import React, { memo, useCallback } from 'react';
-import { Text, View } from 'react-native';
-import LottieView from 'lottie-react-native';
+import { View } from 'react-native';
 
 import { Button, Screen } from '../../component';
-import styles from './WelcomeScreen.styles';
 import { useNavigation } from '../../hooks';
+import {
+  ButtonContainer,
+  Cat,
+  Container,
+  Paragraph,
+  RelaxMessage,
+  Title,
+} from './WelcomeScreen.styledComponents';
 
 const LurkingCat = require('./resources/lurking-cat.json');
 
@@ -17,20 +23,20 @@ const WelcomeScreen: React.FC = () => {
 
   return (
     <Screen>
-      <View style={styles.container}>
+      <Container>
         <View>
-          <Text style={styles.title}>Nordnet Mob App</Text>
-          <Text style={styles.paragraph}>
+          <Title>Nordnet Mob App</Title>
+          <Paragraph>
             We are going to do the task as a team, there is no pressure on finishing the task, that
             is not what is important. We are just going to work together for a while.
-          </Text>
-          <Text style={styles.relax}>Relax and enjoy!</Text>
+          </Paragraph>
+          <RelaxMessage>Relax and enjoy!</RelaxMessage>
         </View>
-        <LottieView source={LurkingCat} autoPlay loop style={styles.lurkingCat} />
-        <View style={styles.button}>
+        <Cat source={LurkingCat} autoPlay loop />
+        <ButtonContainer>
           <Button onPress={onPress} label="Lets get started!" />
-        </View>
-      </View>
+        </ButtonContainer>
+      </Container>
     </Screen>
   );
 };

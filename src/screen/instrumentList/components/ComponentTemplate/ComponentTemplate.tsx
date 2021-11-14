@@ -1,7 +1,6 @@
 import React from 'react';
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './ComponentTemplate.styles';
+// import {} from './ComponentTemplate.styledComponents';
 
 interface Props {}
 

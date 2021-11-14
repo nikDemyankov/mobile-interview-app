@@ -4,49 +4,57 @@ exports[`should render properly 1`] = `
 <Screen>
   <View
     style={
-      Object {
-        "height": "100%",
-        "justifyContent": "space-between",
-        "paddingVertical": 24,
-      }
+      Array [
+        Object {
+          "height": "100%",
+          "justifyContent": "space-between",
+          "paddingVertical": 24,
+        },
+      ]
     }
   >
     <View>
       <Text
         style={
-          Object {
-            "fontSize": 32,
-            "fontWeight": "bold",
-            "marginBottom": 16,
-            "paddingHorizontal": 32,
-            "textAlign": "center",
-          }
+          Array [
+            Object {
+              "fontSize": 32,
+              "fontWeight": "bold",
+              "marginBottom": 16,
+              "paddingHorizontal": 32,
+              "textAlign": "center",
+            },
+          ]
         }
       >
         Nordnet Mob App
       </Text>
       <Text
         style={
-          Object {
-            "fontSize": 16,
-            "lineHeight": 24,
-            "paddingHorizontal": 32,
-            "textAlign": "center",
-          }
+          Array [
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+              "paddingHorizontal": 32,
+              "textAlign": "center",
+            },
+          ]
         }
       >
         We are going to do the task as a team, there is no pressure on finishing the task, that is not what is important. We are just going to work together for a while.
       </Text>
       <Text
         style={
-          Object {
-            "fontSize": 16,
-            "fontWeight": "bold",
-            "lineHeight": 24,
-            "marginTop": 12,
-            "paddingHorizontal": 32,
-            "textAlign": "center",
-          }
+          Array [
+            Object {
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 24,
+              "marginTop": 12,
+              "paddingHorizontal": 32,
+              "textAlign": "center",
+            },
+          ]
         }
       >
         Relax and enjoy!
@@ -57,16 +65,20 @@ exports[`should render properly 1`] = `
       loop={true}
       source="lurking-cat.json"
       style={
-        Object {
-          "width": "100%",
-        }
+        Array [
+          Object {
+            "width": "100%",
+          },
+        ]
       }
     />
     <View
       style={
-        Object {
-          "alignItems": "center",
-        }
+        Array [
+          Object {
+            "alignItems": "center",
+          },
+        ]
       }
     >
       <Button
