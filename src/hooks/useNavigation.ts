@@ -1,24 +1,22 @@
-import { useMemo } from 'react';
+import { useCallback, useMemo } from 'react';
 import { useNavigation as useNavigationDefault } from '@react-navigation/native';
-import R from 'ramda';
 
 type AppNavigation = {
   openInstrumentList: (props?: Record<string, unknown>) => void;
 };
 
-const ROUTES = {
-  openInstrumentList: 'InstrumentList',
-};
-
 const useNavigation = (): AppNavigation => {
   const navigation = useNavigationDefault();
-  const appNavigation: AppNavigation = useMemo(
-    () =>
-      R.mapObjIndexed(
-        (route: string) => (props?: Record<string, unknown>) => navigation.navigate(route, props),
-        ROUTES,
-      ),
+  const navigate = useCallback(
+    (route: string) => (props?: Record<string, unknown>) => navigation.navigate(route, props),
     [navigation],
+  );
+
+  const appNavigation = useMemo(
+    (): AppNavigation => ({
+      openInstrumentList: navigate('InstrumentList'),
+    }),
+    [navigate],
   );
 
   return appNavigation;

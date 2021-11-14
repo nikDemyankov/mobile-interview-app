@@ -1,7 +1,6 @@
-import R from 'ramda';
-import namespace from './api.namespace';
+import { State } from '../ducks.type';
 
-const getSession = R.pathOr<string | null>(null, [namespace, 'session']);
+const getSession = (state: State) => state.api.session;
 
 export default {
   getSession,

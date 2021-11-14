@@ -1,10 +1,12 @@
-import namespace from '../api.namespace';
+import Store from '../../../../fixtures/store';
+import { State } from '../../ducks.type';
 import selector from '../api.selector';
 
 describe('getSession', () => {
   it('should return session from the state', () => {
-    const state = {
-      [namespace]: {
+    const state: State = {
+      ...Store,
+      api: {
         session: 'hello-i-am-a-session',
       },
     };
@@ -13,7 +15,12 @@ describe('getSession', () => {
   });
 
   it('should return null when state is empty', () => {
-    const state = { [namespace]: {} };
+    const state: State = {
+      ...Store,
+      api: {
+        session: null,
+      },
+    };
 
     expect(selector.getSession(state)).toBeNull();
   });
