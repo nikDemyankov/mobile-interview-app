@@ -42,7 +42,7 @@ Run the tests for all test files by running:
  yarn test
 ```
 
-Or in jest watch mode
+Or in jest watch mode:
 
 ```
 yarn tdd
