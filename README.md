@@ -69,3 +69,5 @@ The app comes prepared with parts of fetching for the winners(best stocks) and l
 ### Questions?
 
 If you have any questions or if something isn't working properly feel free to contact [Daniel](daniel.sjostrom@nordnet.se) or [Nikolay](nikolay.demyankov@nordnet.se)
+
+test1
