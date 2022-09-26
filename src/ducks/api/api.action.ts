@@ -18,39 +18,41 @@ const setSessionActionCreator = (session: string) => ({
   session,
 });
 
-const getSession = () => async (
-  dispatch: ThunkDispatch<State, null, Action<string>>,
-): Promise<string> => {
-  const url = constructUrl('login');
-  const payload = `username=<<anonymous>>&password=<<anonymous>>&service=${CLIENT_ID}&country=se&session_lang=sv`;
-  const request = requestBuilder.post({ payload });
+const getSession =
+  () =>
+  async (dispatch: ThunkDispatch<State, null, Action<string>>): Promise<string> => {
+    const url = constructUrl('login');
+    const payload = `username=<<anonymous>>&password=<<anonymous>>&service=${CLIENT_ID}&country=se&session_lang=sv`;
+    const request = requestBuilder.post({ payload });
 
-  const response = await fetch(url, request);
-  const { session_key } = await response.json();
+    const response = await fetch(url, request);
+    const { session_key } = await response.json();
 
-  dispatch(setSessionActionCreator(session_key));
+    dispatch(setSessionActionCreator(session_key));
 
-  return session_key;
-};
+    return session_key;
+  };
 
-const get = <ReturnType>(path: string) => async (
-  dispatch: ThunkDispatch<State, null, Action<string>>,
-  getState: () => State,
-): Promise<ReturnType> => {
-  let session = apiSelector.getSession(getState());
-  const url = constructUrl(path);
+const get =
+  <ReturnType>(path: string) =>
+  async (
+    dispatch: ThunkDispatch<State, null, Action<string>>,
+    getState: () => State,
+  ): Promise<ReturnType> => {
+    let session = apiSelector.getSession(getState());
+    const url = constructUrl(path);
 
-  if (!session) {
-    session = await dispatch(getSession());
-  }
+    if (!session) {
+      session = await dispatch(getSession());
+    }
 
-  const request = requestBuilder.get({
-    session,
-  });
+    const request = requestBuilder.get({
+      session,
+    });
 
-  const result = await fetch(url, request);
+    const result = await fetch(url, request);
 
-  return result.json();
-};
+    return result.json();
+  };
 
 export default { get };
